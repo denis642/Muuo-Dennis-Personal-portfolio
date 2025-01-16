@@ -245,7 +245,7 @@ footer .system-name {
     margin-top: 0;
 }
 
-.github-link {
+.github-link, .live-link {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
@@ -258,10 +258,16 @@ footer .system-name {
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
-.github-link:hover {
+.live-link {
+    margin-right: 10px; /* Add space between the two buttons */
+}
+
+.github-link:hover, .live-link:hover {
     background-color: #155a8a; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
+
+
 /* Experience Section */
 .experience-container {
     display: flex;
